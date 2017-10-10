@@ -1,11 +1,10 @@
-/*Header 1 font, color and background image style definition*/
+/*Header 1 font and color style*/
 h1 {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: white;
   text-align: center;
-  /*width: 100%;*/
 }
 
 /*Page text alignment*/
@@ -13,19 +12,25 @@ html {
   text-align: center;
 }
 
-/*Ordered list color definition*/
-.menu {
+/*Body text style*/
+p {
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+/*Ancor tag style definition*/
+a {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
   text-align: center;
 }
 
+/*Background image style definition*/
 .back {
   background-image: url("the-flatiron-building.png");
   background-size: cover;
   background-position: center;
-  /*height: 350px;*/
 }
 
 /*Subheader 2 font and color definition*/
@@ -35,6 +40,7 @@ h2 {
   font-weight: bold;
 }
 
+/*Ancor tag style definition*/
 .work {
   background-size: cover;
   background-image: url("the-flatiron-building.png");
@@ -46,7 +52,7 @@ h2 {
   text-align: center;
 }
 
-/*Subheader h2 paint background definition*/
+/*Copy right text style*/
 .cright {
   background-size: contain;
   background-color: dimgray;
