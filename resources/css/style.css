@@ -6,7 +6,11 @@ h1 {
   color: white;
   text-align: center;
   /*width: 100%;*/
+}
 
+/*Page text alignment*/
+html {
+  text-align: center;
 }
 
 /*Ordered list color definition*/
@@ -15,14 +19,13 @@ h1 {
   font-size: 18px;
   color: white;
   text-align: center;
-
 }
 
 .back {
   background-image: url("the-flatiron-building.png");
   background-size: cover;
   background-position: center;
-  height: 350px;
+  /*height: 350px;*/
 }
 
 /*Subheader 2 font and color definition*/
@@ -30,5 +33,26 @@ h2 {
   font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
+}
+
+.work {
+  background-size: cover;
+  background-image: url("the-flatiron-building.png");
+  background-position: center;
+  font-family: Helvetica;
+  font-size: 23px;
   color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Subheader h2 paint background definition*/
+.cright {
+  background-size: contain;
+  background-color: dimgray;
+  background-position: left;
+  font-family: Helvetica;
+  font-size: 11px;
+  color: white;
+  text-align: left;
 }
